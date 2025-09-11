@@ -2,7 +2,7 @@
 
 ## 실행
 ```bash
-./gradlew run --args="com.system.batch.SystemTerminationConfig systemTerminationSimulationJob"
+./gradlew run --args="com.system.batch.config.SystemTerminationConfig systemTerminationSimulationJob"
 ```
 
 ## 결과
