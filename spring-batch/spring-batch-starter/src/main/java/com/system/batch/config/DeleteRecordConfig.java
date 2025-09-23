@@ -16,7 +16,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 /**
  * 매일 밤 7일이 지난 레코드를 created 컬럼 기준으로 삭제하는 작업
  * 단순한 작업이라면 별도의 Tasklet 구현 클래스를 만들지 않고, 람다 표현식을 사용해 Step 구성 중에 바로 Tasklet을 정의
- * ./gradlew bootRun --args='--spring.batch.job.name=deleteOldRecordStep'
  */
 @Configuration
 @RequiredArgsConstructor

@@ -14,6 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @Configuration
 public class SystemTerminationConfig {
+    // ./gradlew bootRun --args='--spring.batch.job.name=systemTerminationSimulationJob'
 
     private AtomicInteger processeskilled = new AtomicInteger(0);
     private final int TERMINATION_TARGET = 5;
